@@ -1,0 +1,14 @@
+CREATE DATABASE ticket;
+
+USE ticket;
+
+CREATE TABLE tickets (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  type VARCHAR(50) NOT NULL,
+  subject VARCHAR(50) NOT NULL,
+  message TEXT NOT NULL,
+  attachment VARCHAR(255),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
