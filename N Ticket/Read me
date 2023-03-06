@@ -1,0 +1,8 @@
+This is a Ticketing system that will allow users
+to create tickets regarding their issues.
+once the ticket is saved the support team will be able to view the tickets and reply accordingly.
+the DB also picks the update of the replied tickects
+You can search and view tickets as per the company name
+How many times the company has created the ticket and the messeges of the tickets.
+
+feel free to leave comments
